@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.bahou</groupId>
 	<artifactId>book-network-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.3</version>
 	<name>book-network-api</name>
 	<description>book-network-api</description>
 	<url/>
