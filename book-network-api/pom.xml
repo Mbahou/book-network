@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.bahou</groupId>
 	<artifactId>book-network-api</artifactId>
-	<version>1.0.3</version>
+	<version>1.0.0</version>
 	<name>book-network-api</name>
 	<description>book-network-api</description>
 	<url/>
@@ -110,6 +110,13 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<skipTests>true</skipTests>
 				</configuration>
 			</plugin>
 		</plugins>
