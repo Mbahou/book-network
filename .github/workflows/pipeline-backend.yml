@@ -6,7 +6,7 @@ on:
     branches:
       - ci/pipeline
     paths:
-      - book-network/**
+      - book-network-api/**
       - docker/backend/**
       - 'docker-compose.yml'
       - .github/workflows/*-backend.yml
